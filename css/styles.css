@@ -42,16 +42,36 @@ hr {
   padding-top: 100px;
 }
 
-.top-cloud {
+.topleft-cloud {
   position: absolute;
-  right: 300px;
-  top: 40px;
+  height: 250px;
+  width: 250px;
+  left: 100px;
+  top: 20px;
 }
 
-.bottom-cloud {
+.topright-cloud {
   position: absolute;
-  left: 250px;
-  bottom: 300px;
+  height: 250px;
+  width: 250px;
+  right: 150px;
+  top: 100px;
+}
+
+.bottomleft-cloud {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  left: 350px;
+  bottom: 150px;
+}
+
+.bottomright-cloud {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  right: 400px;
+  bottom: 80px;
 }
 
 .middle-container {
@@ -152,5 +172,6 @@ hr {
 .copyright {
   color: white;
   font-size: 0.75rem;
+  margin: 0;
   padding: 20px 0;
 }
